@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111111;
+}
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #002233;
+    padding: 2em;
+    padding-bottom: 0;
+}
+
+.navbar a {
+    color: #fff;
+    padding-right: 2em;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+.navbar-links .home-link-text:hover {
+    background-color: #F7C839;
+}
+
+.navbar-links .about-link-text:hover {
+    background-color: #FF685F;
+}
+
+.navbar-links .gallery-link-text:hover {
+    background-color: #602D8B;
+}
+
+#home-link-text {
+    border-bottom: 2px solid #F7C839;
+}
+
+#about-link-text {
+    border-bottom: 2px solid #FF685F;
+}
+
+#gallery-link-text {
+    border-bottom: 2px solid #602D8B;
+}
+
+.navbar .the-text {
+    color: #F7C839;
+}
+
+.navbar .landmark-text {
+    color: #FF685F;
+}
+
+.navbar .tour-text {
+    color: #602D8B;
+}
+
+.navbar .the-text,
+.navbar .landmark-text,
+.navbar .tour-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar .site-name {
+    margin-left: 80em;
+    margin-top: -2.5em;
+}
+
+.initial-prep {
+    background-color: #9e56fb;
+    padding: 2em;
+    background-size: contain;
+}
+
+.prep-txt {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #fff;
+    width: max-content;
+}
+
+.prep-content {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.day-one,
+.day-two,
+.day-three,
+.day-four,
+.day-five {
+    color: #fff;
+    max-height: fit-content;
+    background-repeat: no-repeat;
+}
+
+.day-one {
+    background-color: #140021;
+    background-image: url(../photos/assets/day-one.png);
+}
+
+.day-two {
+    background-color: #931C1C;
+    background-image: url(../photos/assets/day-two.png);
+}
+
+.day-three {
+    background-color: #001B98;
+    background-image: url(../photos/assets/day-three.png);
+}
+
+.day-four {
+    background-color: #001829;
+    background-image: url(../photos/assets/day-four.png);
+}
+
+.day-five {
+    background-color: #C62368;
+    background-image: url(../photos/assets/day-five.png);
+}
+
+.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: right;
+    margin: 0;
+    padding-top: 1em;
+    padding-right: 3em;
+}
+
+.content {
+    font-family: 'Raleway', sans-serif;
+    max-width: 50em;
+    padding: 3em;
+    padding-bottom: 50px;
+    font-size: 1.15rem;
+    line-height: 1.3;
+    position: relative;
+    height: max-content;
+    margin-bottom: 0;
+}
+
+.content-two {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-left: 3em;
+    padding-bottom: 3em;
+    padding-top: 0;
+    font-size: 1.15rem;
+    line-height: 1.3;
+}
+
+.day-one-map {
+    margin-top: -200px;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 90% 15%;
+}
+
+.day-two-map {
+    margin-top: -310px;
+    width: 300px;
+    height: 440px;
+    object-fit: cover;
+    object-position: 15% 80%;
+}
+
+.day-three-map {
+    margin-top: -310px;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 15% 80%;
+}
+
+.day-four-map {
+    margin-top: -310px;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 15% 80%;
+}
+
+.day-five-map {
+    margin-top: -200px;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 15% 80%;
+}
+
+.day-one-map, 
+.day-two-map,
+.day-three-map,
+.day-four-map,
+.day-five-map {
+    margin-left: 57em;
+}
+
+.welcome-photo {
+    overflow: hidden;
+}
+
+.welcome-text {
+    margin-top: 0;
+    color: #90E6F9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    height: 858px;
+    width: 1600px;
+    background-image: url(../photos/collage.png);
+    display: block;
+    padding-top: 6em;
+    padding-right: 2em;
+    -webkit-text-stroke: 1.75px black;
+}
+
+.places {
+    color: #90E6F9;
+    position: absolute;
+    margin-top: -20em;
+    margin-left: 21em;
+    margin-right: 21em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: overline;
+    padding-top: 2em;
+}
+
+.timeline {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    position: relative;
+}
+
+.day-one-rect, 
+.day-two-rect,
+.day-three-rect,
+.day-four-rect,
+.day-five-rect {
+    height: 40px;
+    width: 90px;
+    margin: 3px;
+}
+
+.day-one-rect {
+    background-color: #AF50FF;
+}
+
+.day-one-rect .day-one-rect-date,
+.day-one-train {
+    color: #AF50FF;
+}
+
+.day-two-rect .day-two-rect-date,
+.day-two-train,
+.day-two-road,
+.day-two-walk {
+    color: #00beff;
+}
+
+.day-three-rect .day-three-rect-date,
+.day-three-road {
+    color: #FF685F;
+}
+
+.day-four-rect .day-four-rect-date,
+.day-four-train,
+.day-four-road {
+    color: #00D37E;
+}
+
+.day-five-rect .day-five-rect-date,
+.day-five-train {
+    color: #F7C839;
+}
+
+.day-one-rect .day-one-rect-date,
+.day-two-rect .day-two-rect-date,
+.day-three-rect .day-three-rect-date,
+.day-four-rect .day-four-rect-date,
+.day-five-rect .day-five-rect-date,
+.day-one-train,
+.day-two-train,
+.day-four-train,
+.day-five-train,
+.day-two-road,
+.day-three-road,
+.day-four-road,
+.day-two-walk
+{
+    margin: 0;
+    padding-left: 8em;
+    width: max-content;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.day-two-rect {
+    background-color: #00BEFF;
+}
+
+.day-three-rect {
+    background-color: #FF685F;
+}
+
+.day-four-rect {
+    background-color: #00D37E;
+}
+
+.day-five-rect {
+    background-color: #F7C839;
+}
+
+.day-one-rect-text,
+.day-two-rect-text,
+.day-three-rect-text,
+.day-four-rect-text,
+.day-five-rect-text {
+    color: #fff;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    width: 20em;
+    font-size: 1.15rem;
+    line-height: 1.3;
+    left: 10em;
+}
+
+.day-one-rect-text {
+    margin-left: -40em;
+}
+
+.day-two-rect-text {
+    margin-left: -40em;
+    margin-top: -1.5em;
+}
+
+.day-three-rect-text {
+    margin-left: -40em;
+    margin-top: 23em;
+}
+
+.day-four-rect-text {
+    margin-left: -40em;
+}
+
+.day-five-rect-text {
+    margin-left: -40em;
+}
+
+.headings {
+    font-size: 1.15rem;
+}
+
+.container-two {
+    background-color: #000C1E;
+}
+
+.container-two .one-life-text {
+    color: #00BEFF;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.container-two .one-world-text {
+    color: #FF685F;
+    text-align: center;
+}
+
+.container-two .explore-it-text {
+    color: #AF50FF;
+    text-align: right;
+    padding-bottom: 1em;
+    padding-top: 0;
+}
+
+.container-two .one-life-text,
+.container-two .one-world-text,
+.container-two .explore-it-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin: 1.2em;
+    font-size: 2rem;
+}
+
+.group-photo-container {
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.photo-title {
+    color: #D8D8D8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.homepage-info {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.map-title {
+    color: #F7C839;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 3em;
+}
+
+.map-container {
+    overflow: hidden;
+}
+
+.map-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery a:hover {
+    border: 5px solid salmon;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.photo-gallery-text {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding: 1em;
+    padding-left: 2em;
+}
